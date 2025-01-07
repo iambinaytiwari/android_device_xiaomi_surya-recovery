@@ -141,7 +141,6 @@ TW_BRIGHTNESS_PATH := /sys/class/backlight/panel0-backlight/brightness
 TW_MAX_BRIGHTNESS := 4095
 TW_DEFAULT_BRIGHTNESS := 1200
 TARGET_USES_MKE2FS := true
-TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_APEX := true
 TW_USE_TOOLBOX := true
 TW_SUPPORT_INPUT_1_2_HAPTICS := true
