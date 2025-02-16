@@ -163,3 +163,18 @@ TW_INCLUDE_PYTHON := true
 
 TW_PREPARE_DATA_MEDIA_EARLY := true
 TW_FRAMERATE := 90
+
+# SHRP
+SHRP_PATH := device/xiaomi/surya
+SHRP_MAINTAINER := iambinaytiwari
+SHRP_DEVICE_CODE := surya
+SHRP_REC_TYPE := SAR
+SHRP_DEVICE_TYPE := A_Only
+SHRP_NOTCH := true
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_DARK := true
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
